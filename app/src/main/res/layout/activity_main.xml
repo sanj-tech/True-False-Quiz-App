@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/shape"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imgquiz"
+        android:layout_width="266dp"
+        android:layout_height="298dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:src="@drawable/quiz">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/que_txt"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="@string/question1"
+        android:paddingLeft="60dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+
+        android:layout_marginTop="20dp"
+        ></TextView>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/bt_true"
+            android:layout_width="139dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/black"
+            android:background="@drawable/shapebt"
+            android:text="true">
+
+        </Button>
+
+        <Button
+            android:id="@+id/bt_false"
+            android:layout_width="133dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+android:textColor="@color/black"
+            android:background="@drawable/shapebt"
+            android:text="false"></Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnext"
+            android:layout_width="122dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:background="@drawable/shapebt"
+            android:contentDescription="@string/next_text"
+            android:text="Next"
+
+
+            >
+
+        </Button>
+
+        <Button
+            android:id="@+id/btprev"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:background="@drawable/shapebt"
+            android:contentDescription="@string/previous_text"
+            android:text="Previous">
+
+        </Button>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

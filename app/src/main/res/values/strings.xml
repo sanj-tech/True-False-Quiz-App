@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">QuizAppDemo</string>
+
+
+    <string name="question1">Java is object oriented programming language</string>
+    <string name="question2">Android is operting system</string>
+    <string name="question3">Android is  not linux based operting system</string>
+    <string name="question4">Scroll view can contain only one view, or view group, as a child.</string>
+
+    <string name="question5">AlertDialog: The most suggested dialog box, the AlertDialog supports 0-3 buttons, along with a list of selectable items, such as radio buttons and checkboxes.</string>
+    <string name="question6">Services are perform background functionalities</string>
+    <string name="question7">ProgressDialog: Used to display a progress bar and is an extension of the AlertDIalog. It also supports the addition of buttons.</string>
+    <string name="question8">Content Providers not To share data between applications</string>
+    <string name="question9">Intent does not perform inter-connection between activities and mechanisms that pass on data</string>
+    <string name="ques10">SharedPreference option stores data in XML files.</string>
+    <string name="ques11">External Storage stores data in the file system but it can be accessed to all apps in the device</string>
+    <string name="ques12">Internal Storage does not stores data in the device file system where it cannot be read by other applications</string>
+
+
+    <string name="correct_ans">correct answer</string>
+    <string name="wrong_ans">wrong answer</string>
+    <string name="previous_text">previous</string>
+    <string name="next_text">next</string>
+
+
+</resources>
